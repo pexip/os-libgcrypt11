@@ -1,0 +1,3 @@
+12_lessdeps_libgcrypt-config.diff
+no_global_init_during_thread_callbacks.diff
+CVE-2013-4242.diff
