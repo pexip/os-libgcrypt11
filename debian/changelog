@@ -1,3 +1,20 @@
+libgcrypt11 (1.5.0-3ubuntu0.3pexip1) pexip; urgency=low
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 04 Sep 2014 02:55:07 +0100
+
+libgcrypt11 (1.5.0-3ubuntu0.3) precise-security; urgency=medium
+
+  * SECURITY UPDATE: side-channel attack on Elgamal encryption subkeys
+    - debian/patches/add_gcry_divide_by_zero.patch: replace deliberate
+      division by zero with new _gcry_divide_by_zero().
+    - debian/patches/CVE-2014-5270.patch: use sliding window method for
+      exponentiation algorithm in mpi/mpi-pow.c.
+    - CVE-2014-5270
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 19 Aug 2014 09:09:17 -0400
+
 libgcrypt11 (1.5.0-3ubuntu0.2pexip1) pexip; urgency=low
 
   * Prepare Pexip packaging

@@ -1,3 +1,5 @@
 12_lessdeps_libgcrypt-config.diff
 no_global_init_during_thread_callbacks.diff
 CVE-2013-4242.diff
+add_gcry_divide_by_zero.patch
+CVE-2014-5270.patch
