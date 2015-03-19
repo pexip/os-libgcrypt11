@@ -3,3 +3,7 @@ no_global_init_during_thread_callbacks.diff
 CVE-2013-4242.diff
 add_gcry_divide_by_zero.patch
 CVE-2014-5270.patch
+CVE-2014-3591.patch
+CVE-2015-0837-1.patch
+CVE-2015-0837-2.patch
+CVE-2015-0837-3.patch
