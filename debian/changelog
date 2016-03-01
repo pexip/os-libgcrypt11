@@ -3,6 +3,8 @@ libgcrypt11 (1.5.0-3ubuntu0.5pexip1) pexip; urgency=low
   * New upstream release
   * debian/patches/CVE-2015-0837-{1,2,3}.patch: drop in favour
     of upstream patch
+  * debian/patches/basic-test-failure.patch: backport fix for
+    rare failure of the basic testsuite
 
  -- John-Mark Bell <jmb@pexip.com>  Tue, 01 Mar 2016 08:43:21 +0000
 

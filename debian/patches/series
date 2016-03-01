@@ -7,3 +7,4 @@ CVE-2014-3591.patch
 CVE-2015-0837.patch
 CVE-2015-7511.patch
 fix_ec_point_addition.patch
+basic-test-failure.patch
