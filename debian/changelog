@@ -1,3 +1,36 @@
+libgcrypt11 (1.5.0-3ubuntu0.5pexip1) pexip; urgency=low
+
+  * New upstream release
+  * debian/patches/CVE-2015-0837-{1,2,3}.patch: drop in favour
+    of upstream patch
+
+ -- John-Mark Bell <jmb@pexip.com>  Tue, 01 Mar 2016 08:43:21 +0000
+
+libgcrypt11 (1.5.0-3ubuntu0.5) precise-security; urgency=medium
+
+  * SECURITY UPDATE: side-channel attack on ECDH
+    - debian/patches/CVE-2015-7511.patch: perform input validation in
+      cipher/ecc.c, src/mpi.h, use constant-time multiplication in
+      mpi/ec.c.
+    - CVE-2015-7511
+  * debian/patches/fix_ec_point_addition.patch: fix addition of EC points
+    in mpi/ec.c.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 10 Feb 2016 11:12:46 -0500
+
+libgcrypt11 (1.5.0-3ubuntu0.4) precise-security; urgency=medium
+
+  * SECURITY UPDATE: sidechannel attack on Elgamal
+    - debian/patches/CVE-2014-3591.patch: use ciphertext blinding in
+      cipher/elgamal.c.
+    - CVE-2014-3591
+  * SECURITY UPDATE: sidechannel attack via timing variations in mpi_powm
+    - debian/patches/CVE-2015-0837.patch: avoid timing variations in
+      mpi/mpi-pow.c, mpi/mpiutil.c, src/mpi.h.
+    - CVE-2015-0837
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Thu, 26 Mar 2015 08:51:49 -0400
+
 libgcrypt11 (1.5.0-3ubuntu0.3pexip2) pexip; urgency=low
 
   * SECURITY UPDATE: side channel attack on Elgamal decryption
