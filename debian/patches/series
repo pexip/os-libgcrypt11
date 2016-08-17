@@ -7,3 +7,5 @@ CVE-2014-3591.patch
 CVE-2015-0837.patch
 CVE-2015-7511.patch
 fix_ec_point_addition.patch
+CVE-2016-6313-1.patch
+CVE-2016-6313-2.patch
