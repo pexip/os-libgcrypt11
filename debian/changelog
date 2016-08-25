@@ -1,4 +1,21 @@
+libgcrypt11 (1.5.0-3ubuntu0.6pexip1) pexip; urgency=low
+
+  * New upstream release
+
+ -- John-Mark Bell <jmb@pexip.com>  Thu, 25 Aug 2016 23:41:36 +0100
+
+libgcrypt11 (1.5.0-3ubuntu0.6) precise-security; urgency=medium
+
+  * SECURITY UPDATE: random number generator prediction
+    - debian/patches/CVE-2016-6313-1.patch: improve the diagram showing the
+      random mixing in random/random-csprng.c.
+    - debian/patches/CVE-2016-6313-2.patch: hash continuous areas in the
+      csprng pool in random/random-csprng.c.
+    - CVE-2016-6313
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Wed, 17 Aug 2016 13:41:27 -0400
 libgcrypt11 (1.5.0-3ubuntu0.5pexip1) pexip; urgency=low
+
 
   * New upstream release
   * debian/patches/CVE-2015-0837-{1,2,3}.patch: drop in favour
