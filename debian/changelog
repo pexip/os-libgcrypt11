@@ -1,6 +1,7 @@
 libgcrypt11 (1.5.0-3ubuntu0.6pexip1) pexip; urgency=low
 
   * New upstream release
+  * debian/control: remove -dev package
 
  -- John-Mark Bell <jmb@pexip.com>  Thu, 25 Aug 2016 23:41:36 +0100
 
